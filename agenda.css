@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+
+/*/////////////////AGNDA///////////////*/
+
+
+/*TETE DE PAGE*/
+body{
+    
+    background-image: url(https://www.ginjfo.com/wp-content/uploads/2021/06/FD1Win11.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+main{
+    position: relative;
+    width: 1500px;
+    height: 1500px;
+}
+
+td{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+#logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%; border: solid; color: snow;
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+
+.titre{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 650px;
+    margin-top: 80px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+    color: snow;
+
+}
+
+
+/*TABLEAU*/
+
+
+table{
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 350px;
+    border: solid; color: snow;
+    background-color: lightslategrey;
+  
+}
+
+thead tr{
+   padding: 50px;
+   border: double; color: black;
+   font-family: 'Roboto Mono', monospace;
+   background-color: aqua;
+
+}
+
+tbody tr, td, th{
+    border: 1px solid snow;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sport{
+    background-color: red;
+}
+
+.match{
+    background-color: seagreen;
+    z-index: 2;
+    max-width: 85px;
+}
+
+.musique{
+    background-color: skyblue;
+}
+
+#wkend{
+    background-color: tomato;
+}
+
+.apero{
+    background-color: turquoise;
+}
+
+
+/*PIED DE PAGE*/
+
+
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer h1{
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+    color: snow;
+}
+
+a:hover{
+    background-color: springgreen;
+    border: solid snow;
+    border-radius: 15px;
+}
+
+.coursimportant{
+    background-color: orange ;
+    max-width: 100px;
+}
+
+
+
+/*/////////////// FORMULAIRE /////////////////*/
+
+header h1{
+    font-size: 50px;
+    margin-left: 500px;
+    margin-top: 150px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+    color: snow; 
+}
+
+.formulaire{
+    width: 1000px;
+    height: 1000px;
+    padding: 100px;
+    margin-left: 250px ;
+
+}
+
+.zonetext{
+    width: 800px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 10px ;
+}
+
+.boutonvalidation{
+    margin-top: 50px;
+    width: 500px;
+    height: 30px;
+    margin-left: 150px;
+    border-radius: 10px ;
+}
+
+
